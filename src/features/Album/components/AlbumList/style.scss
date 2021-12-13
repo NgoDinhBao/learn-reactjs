@@ -1,0 +1,12 @@
+.album-list{
+    display: flex;
+    flex-flow: row nowrap;//nam ngang
+    padding: 0;
+    margin: 10 -20px;
+    list-style-type: none;//bo cham den
+    
+    //li
+    & > li {
+        padding: 0 20px;
+    }
+}
